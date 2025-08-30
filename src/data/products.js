@@ -1281,7 +1281,7 @@ export const products = [
   },
   {
     id: 160,
-    name: "URSCA (Ursodeoxycholic Acid)",
+    name: "UDCA (Ursodeoxycholic Acid)",
     category: "APIs",
     description: "A secondary bile acid used to dissolve gallstones and treat liver conditions.",
     image: productImage1,

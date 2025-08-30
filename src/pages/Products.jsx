@@ -4,12 +4,14 @@ import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Input } from '../components/ui/input';
 import { products, categories } from '../data/products';
+import { useNavigate } from 'react-router-dom';
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarSelectedProduct, setSidebarSelectedProduct] = useState(null);
+  const navigate = useNavigate();
 
   const filteredProducts = sidebarOpen && sidebarSelectedProduct
     ? products.filter(product => product.name === sidebarSelectedProduct)
@@ -148,7 +150,7 @@ const Products = () => {
                             ))}
                           </ul>
                         </div>
-                        <Button className="w-full">
+                        <Button className="w-full" onClick={() => navigate('/DeepPharma/contact')}>
                           Enquire Now
                         </Button>
                       </CardContent>

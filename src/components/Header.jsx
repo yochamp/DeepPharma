@@ -8,10 +8,10 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Products', href: '/products' },
-    { name: 'About Us', href: '/about' },
-    { name: 'Contact Us', href: '/contact' },
+    { name: 'Home', href: '/DeepPharma/' },
+    { name: 'Products', href: '/DeepPharma/products' },
+    { name: 'About Us', href: '/DeepPharma/about' },
+    { name: 'Contact Us', href: '/DeepPharma/contact' },
   ];
 
   const isActive = (path) => location.pathname === path;

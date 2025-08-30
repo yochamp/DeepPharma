@@ -67,13 +67,13 @@ const Home = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg px-8">
-                  <Link to="/products">
+                  <Link to="/DeepPharma/products">
                     Explore Our Products
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="text-lg px-8">
-                  <Link to="/about">Learn More About Us</Link>
+                  <Link to="/DeepPharma/about">Learn More About Us</Link>
                 </Button>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Home = () => {
               that meet the highest international standards.
             </p>
             <Button asChild variant="outline" className="mt-6">
-              <Link to="/about">Read Our Full Story</Link>
+              <Link to="/DeepPharma/about">Read Our Full Story</Link>
             </Button>
           </div>
         </div>
@@ -168,7 +168,7 @@ const Home = () => {
                     {category.description}
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/products">View Products</Link>
+                    <Link to="/DeepPharma/products">View Products</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -188,7 +188,7 @@ const Home = () => {
             and discover how we can support your business growth.
           </p>
           <Button asChild size="lg" variant="secondary" className="text-lg px-8">
-            <Link to="/contact">
+            <Link to="/DeepPharma/contact">
               Contact Us Today
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>

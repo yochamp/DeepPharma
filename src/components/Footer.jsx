@@ -15,8 +15,8 @@ const Footer = () => {
               <h3 className="text-2xl font-bold text-primary">Deep Pharma</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading pharmaceutical company committed to delivering quality healthcare solutions 
-              through innovative research and development.
+              Leading pharmaceutical company committed to delivering quality healthcare solutions
+              innovatively.
             </p>
             <div className="space-y-2">
               <div className="flex items-center text-gray-300">

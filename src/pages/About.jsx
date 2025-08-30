@@ -20,13 +20,13 @@ const About = () => {
     {
       icon: <Award className="h-8 w-8 text-primary" />,
       title: "Excellence",
-      description: "We strive for excellence in pharmaceutical manufacturing and research & development."
-    },
-    {
-      icon: <Globe className="h-8 w-8 text-primary" />,
-      title: "Global Reach",
-      description: "Serving customers worldwide with reliable pharmaceutical solutions and timely delivery."
-    }
+      description: "We strive for excellence in pharmaceutical dealings."
+   },
+    // {
+    //   icon: <Globe className="h-8 w-8 text-primary" />,
+    //   title: "Global Reach",
+    //   description: "Serving customers worldwide with reliable pharmaceutical solutions and timely delivery."
+    // }
   ];
 
   // const milestones = [
@@ -147,7 +147,7 @@ const About = () => {
               <p className="text-gray-600 mb-4">
                 Deep Pharma was founded in 2009 with a clear vision: to provide the pharmaceutical 
                 industry with reliable, high-quality products that meet the most stringent 
-                international standards. Our founders, with decades of combined experience in 
+                international standards. Our founder, with decades of combined experience in 
                 pharmaceutical manufacturing and research, established the company on principles 
                 of quality, integrity, and customer focus.
               </p>
